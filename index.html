@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" required />
+      <br />
+      <label for="contact">Contact Number:</label><br />
+      <input type="text" id="contact" required />
+      <br />
+      <br />
+      <input type="submit" value="Save" />
+    </form>
+    <br />
+    <input type="text" id="search" placeholder="Search by name" />
+    <br /><br />
+    <table id="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Contact Number</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="app.js"></script>
+  </body>
+</html>
